@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+  </head>
+  <body>
+    <!-- Header Section -->
+    <header id="header">
+      <h1>Port<span class="head">folio</span></h1>
+      <div class="container">
+        <nav>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#About">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home" class="hero">
+      <div class="hero-content">
+        <h1>Hi, It's <span> UMM-E-HABIBA</span></h1>
+        
+        <p>And I'm a <span id="dynamic-title">Frontend Developer</span></p>  
+      
+          <p id="para">  As a frontend developer, I create responsive, user-friendly web
+            interfaces<br> using HTML, CSS, and JavaScript. I focus on delivering
+            visually appealing <br>designs with smooth functionality and ensure an
+            optimal user experience<br> across devices. My work bridges aesthetics with
+            technical efficiency,<br> ensuring fast and engaging digital solutions.</p>
+
+        <div class="social-icons">
+          <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+          <a href="https://linkedin.com" target="_blank"><i class="fab fa-linkedin"></i></a>
+          <a href="https://github.com" target="_blank"><i class="fab fa-github"></i></a>
+      </div>
+      <div class="buttons">
+        <a href="#" class="btn">Hire</a>
+        <a href="#" class="btn contact-btn">Contact</a>
+    </div>
+      
+  </div>
+
+  <div class="image-container">
+    <img src="./images/60cff55a-4255-4a93-a792-30ce46e44afc.jfif" alt="Profile Image">
+</div>
+    </section>
+    
+    <div class="img-container">
+      <img src="./images/6h5wkfqh.png" alt="image" id="img">
+    </div>
+    <section id="about">
+      <div>
+      <h2>About Me</h2>
+      <p>As a frontend developer, I create responsive, user-friendly web
+        interfaces<br> using HTML, CSS, and JavaScript. I focus on delivering
+        visually appealing <br>designs with smooth functionality and ensure an
+        optimal user experience<br> across devices. My work bridges aesthetics with
+        technical efficiency,<br> ensuring fast and engaging digital solutions.</p>
+
+      <a href="#about" class="btn">Read More</a>
+    </div>
+     
+  </section>
+
+    <!-- Education Section -->
+     
+    <div class="container">
+
+  
+      <!-- Education Section Container -->
+      <div id="educationSection" class="education-section"></div>
+  
+      <!-- Button to add the Education section -->
+      <button class="btn-add-education" onclick="addEducation()">Add Education</button>
+  </div>
+    <!-- Services Section -->
+    <div class="containers">
+      <h2 class="section-title">Services</h2>
+  
+      <!-- Services Section with Icons -->
+      <div class="services-container">
+          <!-- Service 1 Icon -->
+          <div class="service-card">
+              <i class="fa fa-laptop-code"></i> 
+              <h2>Frontend Development</h2>
+              <p class="para-cards">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloribus ullam architecto perferendis repellendus, doloremque sequi labore tenetur?</p>
+          </div>
+          
+          <!-- Service 2 Icon -->
+          <div class="service-card">
+              <i class="fa fa-paint-brush"></i>
+              <h2>Graphic Designning</h2>
+              <p class="para-cards">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque quasi vitae error, quisquam sed animi corporis esse illo?</p>
+              
+          </div>
+          
+          <!-- Service 3 Icon -->
+          <div class="service-card">
+              <i class="fa fa-database"></i> 
+              <h2>UI/UIX Design</h2>
+              <p class="para-cards">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt quibusdam rerum quos magnam! Eligendi nulla accusamus, explicabo eum officia laborum?</p>
+          </div>
+          
+          <!-- Service 4 Icon -->
+          <div class="service-card">
+              <i class="fa fa-mobile-alt"></i> 
+              <h2>Full Stack Development</h2>
+              <p class="para-cards">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium eum suscipit vel fuga libero id quia consequatur excepturi enim blanditiis.</p>
+          </div>
+      </div>
+  </div>
+   
+
+    <!-- Contact Section -->
+    <section id="contact">
+      <h2>Contact Me</h2>
+      <form id="contact-form">
+        <input type="text" placeholder="Your Name" id="name" />
+        <input type="email" placeholder="Your Email" id="email" />
+        <textarea placeholder="Your Message" id="message"></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+      <p id="form-message"></p>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+      <div class="footer-container">
+          <p>&copy; 2024 Your Company. All rights reserved.</p>
+          <ul>
+              <li><a href="#"><i class="fas fa-home"></i> Home</a></li>
+              <li><a href="#"><i class="fas fa-info-circle"></i> About</a></li>
+              <li><a href="#"><i class="fas fa-phone"></i> Contact</a></li>
+          </ul>
+          <div class="social-iconss">
+              <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+              <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+              <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+          </div>
+      </div>
+  </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
